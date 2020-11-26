@@ -74,7 +74,7 @@
         endpoint (str "https://api.chess.com/pub/player/" user-name "/games/" year "/" month)]
     (map #(select-keys % ["white" "black" "end_time" "url"]) ((json/read-str (slurp endpoint)) "games"))))
 
-(defn get-all-new-games [db]
+(defn calc-new-rankings [db]
   (let [player-rankings (:player-rankings db)
         users (set (map (comp str/lower-case first) player-rankings))
         last-timestamp (:last-timestamp db)
@@ -97,11 +97,11 @@
                   (let [new-ranks (get-new-ranks-for-game game ranks)]
                     (apply (partial assoc ranks) new-ranks))) 
                 player-rankings new-sorted-games)]
-    [((last new-sorted-games) "end_time") new-player-rankings]))
+    [(if (empty? new-sorted-games) last-timestamp ((last new-sorted-games) "end_time")) new-player-rankings]))
 
 (defn update-all []
   (let [db (load-db)
-        [last-timestamp new-ranks] (get-all-new-games db)]
+        [last-timestamp new-ranks] (calc-new-rankings db)]
     (write-db {:last-timestamp last-timestamp :player-rankings new-ranks})))
 
 (defn show-ranks []
@@ -111,6 +111,14 @@
         sorted-ranks (reverse sorted-ranks)]
     (doseq [rank (map conj sorted-ranks (range 1 (inc (count sorted-ranks))))]
       (println (nth rank 2) (first rank) (second rank)))))
+
+(defn reset-db []
+  (let [initial-score 1000
+        db (load-db)
+        user-names (map first (:player-rankings db))
+        clean-db {:last-timestamp 0
+                  :player-rankings (apply hash-map (interleave user-names (repeat (count user-names) initial-score)))}]
+    (write-db clean-db)))
 
 ; win	Win
 ; checkmated	Checkmated
