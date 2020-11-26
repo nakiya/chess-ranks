@@ -12,8 +12,8 @@ If you wanna start from scratch, set all rank values in `./users.edn` to a suita
 
 Two main functions in `src/chess/core.clj`
 
-update-all - Updates all the ranks.
-show-ranks - Shows ranks in human readable format.
+1. `update-all` - Updates all the ranks.
+2. `show-ranks` - Shows ranks in human readable format.
 
 ## Options
 
