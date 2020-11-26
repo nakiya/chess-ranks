@@ -8,9 +8,12 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
+If you wanna start from scratch, set all rank values in `./users.edn` to a suitable default (like 1000), set the last-timestamp to 0.
 
-    $ java -jar chess-0.1.0-standalone.jar [args]
+Two main functions in `src/chess/core.clj`
+
+update-all - Updates all the ranks.
+show-ranks - Shows ranks in human readable format.
 
 ## Options
 
