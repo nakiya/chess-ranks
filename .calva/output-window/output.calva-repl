@@ -1,0 +1,550 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::chess.core=> 
+; Jack-in done.
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+1 ritigalajayasena 1281
+2 ritigalajayasena 1281
+3 ritigalajayasena 1281
+4 ritigalajayasena 1281
+5 ritigalajayasena 1281
+6 ritigalajayasena 1281
+7 ritigalajayasena 1281
+8 ritigalajayasena 1281
+9 ritigalajayasena 1281
+10 ritigalajayasena 1281
+11 ritigalajayasena 1281
+12 ritigalajayasena 1281
+1 ruk256 1127
+2 ruk256 1127
+3 ruk256 1127
+4 ruk256 1127
+5 ruk256 1127
+6 ruk256 1127
+7 ruk256 1127
+8 ruk256 1127
+9 ruk256 1127
+10 ruk256 1127
+11 ruk256 1127
+12 ruk256 1127
+1 nakiya 1053
+2 nakiya 1053
+3 nakiya 1053
+4 nakiya 1053
+5 nakiya 1053
+6 nakiya 1053
+7 nakiya 1053
+8 nakiya 1053
+9 nakiya 1053
+10 nakiya 1053
+11 nakiya 1053
+12 nakiya 1053
+1 sahan94 1030
+2 sahan94 1030
+3 sahan94 1030
+4 sahan94 1030
+5 sahan94 1030
+6 sahan94 1030
+7 sahan94 1030
+8 sahan94 1030
+9 sahan94 1030
+10 sahan94 1030
+11 sahan94 1030
+12 sahan94 1030
+1 cjdrox 1014
+2 cjdrox 1014
+3 cjdrox 1014
+4 cjdrox 1014
+5 cjdrox 1014
+6 cjdrox 1014
+7 cjdrox 1014
+8 cjdrox 1014
+9 cjdrox 1014
+10 cjdrox 1014
+11 cjdrox 1014
+12 cjdrox 1014
+1 sameerasam 1013
+2 sameerasam 1013
+3 sameerasam 1013
+4 sameerasam 1013
+5 sameerasam 1013
+6 sameerasam 1013
+7 sameerasam 1013
+8 sameerasam 1013
+9 sameerasam 1013
+10 sameerasam 1013
+11 sameerasam 1013
+12 sameerasam 1013
+1 shashikadanthanaraya 995
+2 shashikadanthanaraya 995
+3 shashikadanthanaraya 995
+4 shashikadanthanaraya 995
+5 shashikadanthanaraya 995
+6 shashikadanthanaraya 995
+7 shashikadanthanaraya 995
+8 shashikadanthanaraya 995
+9 shashikadanthanaraya 995
+10 shashikadanthanaraya 995
+11 shashikadanthanaraya 995
+12 shashikadanthanaraya 995
+1 indika3272 985
+2 indika3272 985
+3 indika3272 985
+4 indika3272 985
+5 indika3272 985
+6 indika3272 985
+7 indika3272 985
+8 indika3272 985
+9 indika3272 985
+10 indika3272 985
+11 indika3272 985
+12 indika3272 985
+1 yasabanda 920
+2 yasabanda 920
+3 yasabanda 920
+4 yasabanda 920
+5 yasabanda 920
+6 yasabanda 920
+7 yasabanda 920
+8 yasabanda 920
+9 yasabanda 920
+10 yasabanda 920
+11 yasabanda 920
+12 yasabanda 920
+1 sajanarana 891
+2 sajanarana 891
+3 sajanarana 891
+4 sajanarana 891
+5 sajanarana 891
+6 sajanarana 891
+7 sajanarana 891
+8 sajanarana 891
+9 sajanarana 891
+10 sajanarana 891
+11 sajanarana 891
+12 sajanarana 891
+1 thilinaariyarathna 876
+2 thilinaariyarathna 876
+3 thilinaariyarathna 876
+4 thilinaariyarathna 876
+5 thilinaariyarathna 876
+6 thilinaariyarathna 876
+7 thilinaariyarathna 876
+8 thilinaariyarathna 876
+9 thilinaariyarathna 876
+10 thilinaariyarathna 876
+11 thilinaariyarathna 876
+12 thilinaariyarathna 876
+1 damithdissanayake 815
+2 damithdissanayake 815
+3 damithdissanayake 815
+4 damithdissanayake 815
+5 damithdissanayake 815
+6 damithdissanayake 815
+7 damithdissanayake 815
+8 damithdissanayake 815
+9 damithdissanayake 815
+10 damithdissanayake 815
+11 damithdissanayake 815
+12 damithdissanayake 815
+nil
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+; Execution error (IllegalArgumentException) at chess.core/show-ranks (core.clj:112).
+; Don't know how to create ISeq from: java.lang.Long
+[{:file "RT.java" :line 557 :method "seqFrom" :flags [:java]}
+ {:file "RT.java" :line 537 :method "seq" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:137" :fn "seq"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:725" :fn "concat/fn"  :method "invoke" :flags [:clj]}
+ {:file "LazySeq.java" :line 42 :method "sval" :flags [:java]}
+ {:file "LazySeq.java" :line 51 :method "seq" :flags [:java]}
+ {:file "LazySeq.java" :line 73 :method "first" :flags [:java]}
+ {:file "RT.java" :line 692 :method "first" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:55" :fn "first"  :method "invokeStatic" :flags [:clj]}
+ {:file "file:/d:/work/projects/chess/src/chess/core.clj:112" :fn "show-ranks"  :method "invokeStatic" :flags [:project :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:175" :fn "eval28343"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:175" :fn "eval28343"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7177 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 152 :method "applyToHelper" :flags [:java]}
+ {:file "AFn.java" :line 144 :method "applyTo" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:665" :fn "apply"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "doInvoke" :flags [:dup :clj]}
+ {:file "RestFn.java" :line 425 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:115" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:150" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:202" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:201" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 832 :method "run" :flags [:java]}]
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+1 ritigalajayasena 1281
+2 ritigalajayasena 1281
+3 ritigalajayasena 1281
+4 ritigalajayasena 1281
+5 ritigalajayasena 1281
+6 ritigalajayasena 1281
+7 ritigalajayasena 1281
+8 ritigalajayasena 1281
+9 ritigalajayasena 1281
+10 ritigalajayasena 1281
+11 ritigalajayasena 1281
+12 ritigalajayasena 1281
+1 ruk256 1127
+2 ruk256 1127
+3 ruk256 1127
+4 ruk256 1127
+5 ruk256 1127
+6 ruk256 1127
+7 ruk256 1127
+8 ruk256 1127
+9 ruk256 1127
+10 ruk256 1127
+11 ruk256 1127
+12 ruk256 1127
+1 nakiya 1053
+2 nakiya 1053
+3 nakiya 1053
+4 nakiya 1053
+5 nakiya 1053
+6 nakiya 1053
+7 nakiya 1053
+8 nakiya 1053
+9 nakiya 1053
+10 nakiya 1053
+11 nakiya 1053
+12 nakiya 1053
+1 sahan94 1030
+2 sahan94 1030
+3 sahan94 1030
+4 sahan94 1030
+5 sahan94 1030
+6 sahan94 1030
+7 sahan94 1030
+8 sahan94 1030
+9 sahan94 1030
+10 sahan94 1030
+11 sahan94 1030
+12 sahan94 1030
+1 cjdrox 1014
+2 cjdrox 1014
+3 cjdrox 1014
+4 cjdrox 1014
+5 cjdrox 1014
+6 cjdrox 1014
+7 cjdrox 1014
+8 cjdrox 1014
+9 cjdrox 1014
+10 cjdrox 1014
+11 cjdrox 1014
+12 cjdrox 1014
+1 sameerasam 1013
+2 sameerasam 1013
+3 sameerasam 1013
+4 sameerasam 1013
+5 sameerasam 1013
+6 sameerasam 1013
+7 sameerasam 1013
+8 sameerasam 1013
+9 sameerasam 1013
+10 sameerasam 1013
+11 sameerasam 1013
+12 sameerasam 1013
+1 shashikadanthanaraya 995
+2 shashikadanthanaraya 995
+3 shashikadanthanaraya 995
+4 shashikadanthanaraya 995
+5 shashikadanthanaraya 995
+6 shashikadanthanaraya 995
+7 shashikadanthanaraya 995
+8 shashikadanthanaraya 995
+9 shashikadanthanaraya 995
+10 shashikadanthanaraya 995
+11 shashikadanthanaraya 995
+12 shashikadanthanaraya 995
+1 indika3272 985
+2 indika3272 985
+3 indika3272 985
+4 indika3272 985
+5 indika3272 985
+6 indika3272 985
+7 indika3272 985
+8 indika3272 985
+9 indika3272 985
+10 indika3272 985
+11 indika3272 985
+12 indika3272 985
+1 yasabanda 920
+2 yasabanda 920
+3 yasabanda 920
+4 yasabanda 920
+5 yasabanda 920
+6 yasabanda 920
+7 yasabanda 920
+8 yasabanda 920
+9 yasabanda 920
+10 yasabanda 920
+11 yasabanda 920
+12 yasabanda 920
+1 sajanarana 891
+2 sajanarana 891
+3 sajanarana 891
+4 sajanarana 891
+5 sajanarana 891
+6 sajanarana 891
+7 sajanarana 891
+8 sajanarana 891
+9 sajanarana 891
+10 sajanarana 891
+11 sajanarana 891
+12 sajanarana 891
+1 thilinaariyarathna 876
+2 thilinaariyarathna 876
+3 thilinaariyarathna 876
+4 thilinaariyarathna 876
+5 thilinaariyarathna 876
+6 thilinaariyarathna 876
+7 thilinaariyarathna 876
+8 thilinaariyarathna 876
+9 thilinaariyarathna 876
+10 thilinaariyarathna 876
+11 thilinaariyarathna 876
+12 thilinaariyarathna 876
+1 damithdissanayake 815
+2 damithdissanayake 815
+3 damithdissanayake 815
+4 damithdissanayake 815
+5 damithdissanayake 815
+6 damithdissanayake 815
+7 damithdissanayake 815
+8 damithdissanayake 815
+9 damithdissanayake 815
+10 damithdissanayake 815
+11 damithdissanayake 815
+12 damithdissanayake 815
+nil
+clj::chess.core=> (map conj [[1 2] [3 4] [5 6]] [1 2 3])
+([1 2 1] [3 4 2] [5 6 3])
+clj::chess.core=> 
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+; Execution error (ClassCastException) at chess.core/show-ranks (form-init2689671020647055679.clj:112).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentCollection (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+[{:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:82" :fn "conj"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:82" :fn "conj"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:2760" :fn "map/fn"  :method "invoke" :flags [:clj]}
+ {:file "LazySeq.java" :line 42 :method "sval" :flags [:java]}
+ {:file "LazySeq.java" :line 51 :method "seq" :flags [:java]}
+ {:file "RT.java" :line 535 :method "seq" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:137" :fn "seq"  :method "invokeStatic" :flags [:clj]}
+ {:file "file:/d:/work/projects/chess/src/chess/core.clj:112" :fn "show-ranks"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:368" :fn "eval43310"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:368" :fn "eval43310"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7177 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 152 :method "applyToHelper" :flags [:java]}
+ {:file "AFn.java" :line 144 :method "applyTo" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:665" :fn "apply"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "doInvoke" :flags [:dup :clj]}
+ {:file "RestFn.java" :line 425 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:115" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:150" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:202" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:201" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 832 :method "run" :flags [:java]}]
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+; Execution error (ClassCastException) at chess.core/show-ranks (core.clj:112).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentCollection (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+[{:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:82" :fn "conj"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:82" :fn "conj"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:2760" :fn "map/fn"  :method "invoke" :flags [:clj]}
+ {:file "LazySeq.java" :line 42 :method "sval" :flags [:java]}
+ {:file "LazySeq.java" :line 51 :method "seq" :flags [:java]}
+ {:file "RT.java" :line 535 :method "seq" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:137" :fn "seq"  :method "invokeStatic" :flags [:clj]}
+ {:file "file:/d:/work/projects/chess/src/chess/core.clj:112" :fn "show-ranks"  :method "invokeStatic" :flags [:project :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:411" :fn "eval43903"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:411" :fn "eval43903"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7177 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 152 :method "applyToHelper" :flags [:java]}
+ {:file "AFn.java" :line 144 :method "applyTo" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:665" :fn "apply"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "doInvoke" :flags [:dup :clj]}
+ {:file "RestFn.java" :line 425 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:115" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:150" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:202" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:201" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 832 :method "run" :flags [:java]}]
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+(["ritigalajayasena" 1281]
+ ["ruk256" 1127]
+ ["nakiya" 1053]
+ ["sahan94" 1030]
+ ["cjdrox" 1014]
+ ["sameerasam" 1013]
+ ["shashikadanthanaraya" 995]
+ ["indika3272" 985]
+ ["yasabanda" 920]
+ ["sajanarana" 891]
+ ["thilinaariyarathna" 876]
+ ["damithdissanayake" 815])
+clj::chess.core=> (count *1)
+12
+clj::chess.core=> (range 1 (inc (count (show-ranks))))
+(1 2 3 4 5 6 7 8 9 10 11 12)
+clj::chess.core=> 
+(def ranks (show-ranks))
+#'chess.core/ranks
+clj::chess.core=> 
+(map conj (range 1 (inc (count ranks))) ranks)
+; Error printing return value (ClassCastException) at clojure.core/conj (core.clj:82).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentCollection (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+[{:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:442" :fn "repl/read-eval-print"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:115" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:150" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:202" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:201" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 832 :method "run" :flags [:java]}]
+clj::chess.core=> 
+ranks
+(["ritigalajayasena" 1281]
+ ["ruk256" 1127]
+ ["nakiya" 1053]
+ ["sahan94" 1030]
+ ["cjdrox" 1014]
+ ["sameerasam" 1013]
+ ["shashikadanthanaraya" 995]
+ ["indika3272" 985]
+ ["yasabanda" 920]
+ ["sajanarana" 891]
+ ["thilinaariyarathna" 876]
+ ["damithdissanayake" 815])
+clj::chess.core=> 
+(count ranks)
+12
+clj::chess.core=> (range 1 (inc (count ranks)))
+(1 2 3 4 5 6 7 8 9 10 11 12)
+clj::chess.core=> (map conj (1 2 3 4 5 6 7 8 9 10 11 12) ranks)
+; Execution error (ClassCastException) at chess.core/eval45972 (form-init2689671020647055679.clj:504).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+[{:file "file:/D:/work/projects/chess/src/chess/core.clj:504" :fn "eval45972"  :method "invokeStatic" :flags [:project :repl :clj]}
+ {:file "file:/D:/work/projects/chess/src/chess/core.clj:504" :fn "eval45972"  :method "invoke" :flags [:dup :project :repl :clj]}
+ {:file "Compiler.java" :line 7177 :method "eval" :flags [:tooling :java]}
+ {:file "Compiler.java" :line 7132 :method "eval" :flags [:dup :tooling :java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3214" :fn "eval"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:3210" :fn "eval"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 152 :method "applyToHelper" :flags [:java]}
+ {:file "AFn.java" :line 144 :method "applyTo" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:665" :fn "apply"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "invokeStatic" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/core.clj:1973" :fn "with-bindings*"  :method "doInvoke" :flags [:dup :clj]}
+ {:file "RestFn.java" :line 425 :method "invoke" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:87" :fn "evaluate/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:437" :fn "repl/read-eval-print"  :method "invoke" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:115" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/interruptible_eval.clj:150" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:202" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/C:/Users/dumra/.m2/repository/nrepl/nrepl/0.8.2/nrepl-0.8.2.jar!/nrepl/middleware/session.clj:201" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 832 :method "run" :flags [:java]}]
+clj::chess.core=> 
+; Evaluating file: core.clj
+#'chess.core/show-ranks
+clj::chess.core=> 
+(show-ranks)
+1 ritigalajayasena 1281
+2 ruk256 1127
+3 nakiya 1053
+4 sahan94 1030
+5 cjdrox 1014
+6 sameerasam 1013
+7 shashikadanthanaraya 995
+8 indika3272 985
+9 yasabanda 920
+10 sajanarana 891
+11 thilinaariyarathna 876
+12 damithdissanayake 815
+nil
+clj::chess.core=> 
